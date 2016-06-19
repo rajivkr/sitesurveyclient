@@ -35,7 +35,7 @@ public class DbUtility {
 			//}
 			System.out.println("DBURI:"+uri);
 			client = new MongoClient(new MongoClientURI(uri));
-			System.out.println("Connected to DB");
+			System.out.println("Connectting DB");
 			return client;
 		}
 		
