@@ -1,5 +1,8 @@
 language: java
 
+before_install:
+ - chmod +x gradlew
+
 install: mvn clean install -DskipTests=true ; 
 
 jdk:
